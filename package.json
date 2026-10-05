@@ -1,14 +1,15 @@
 {
   "name": "osu-tournament-overlay",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Real-time osu! tournament overlay service built with Express.js, Socket.io, and MySQL.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
